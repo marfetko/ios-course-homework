@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E35EEB820BAE72E00B3D2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EEB720BAE72E00B3D2D5 /* AppDelegate.swift */; };
+		5E35EEBA20BAE72E00B3D2D5 /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EEB920BAE72E00B3D2D5 /* RecordListViewController.swift */; };
+		5E35EEBD20BAE72E00B3D2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E35EEBB20BAE72E00B3D2D5 /* Main.storyboard */; };
+		5E35EEBF20BAE72E00B3D2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E35EEBE20BAE72E00B3D2D5 /* Assets.xcassets */; };
+		5E35EEC220BAE72E00B3D2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E35EEC020BAE72E00B3D2D5 /* LaunchScreen.storyboard */; };
+		5E35EECD20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EECB20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift */; };
+		5E35EECE20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E35EECC20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib */; };
+		5E35EED020BCA15800B3D2D5 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EECF20BCA15800B3D2D5 /* Record.swift */; };
+		5E35EED220BDCAFB00B3D2D5 /* RecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EED120BDCAFB00B3D2D5 /* RecordVC.swift */; };
+		5E35EED420BDCB9300B3D2D5 /* NewRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EED320BDCB9300B3D2D5 /* NewRecordVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E35EEB420BAE72E00B3D2D5 /* 03-diary-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-diary-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E35EEB720BAE72E00B3D2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E35EEB920BAE72E00B3D2D5 /* RecordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
+		5E35EEBC20BAE72E00B3D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E35EEBE20BAE72E00B3D2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E35EEC120BAE72E00B3D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E35EEC320BAE72E00B3D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E35EECB20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRecordTableViewCell.swift; sourceTree = "<group>"; };
+		5E35EECC20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaryRecordTableViewCell.xib; sourceTree = "<group>"; };
+		5E35EECF20BCA15800B3D2D5 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		5E35EED120BDCAFB00B3D2D5 /* RecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVC.swift; sourceTree = "<group>"; };
+		5E35EED320BDCB9300B3D2D5 /* NewRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E35EEB120BAE72E00B3D2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E35EEAB20BAE72E00B3D2D5 = {
+			isa = PBXGroup;
+			children = (
+				5E35EEB620BAE72E00B3D2D5 /* 03-diary-ui */,
+				5E35EEB520BAE72E00B3D2D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E35EEB520BAE72E00B3D2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E35EEB420BAE72E00B3D2D5 /* 03-diary-ui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E35EEB620BAE72E00B3D2D5 /* 03-diary-ui */ = {
+			isa = PBXGroup;
+			children = (
+				5E35EEB720BAE72E00B3D2D5 /* AppDelegate.swift */,
+				5E35EECF20BCA15800B3D2D5 /* Record.swift */,
+				5E35EEB920BAE72E00B3D2D5 /* RecordListViewController.swift */,
+				5E35EECB20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift */,
+				5E35EED320BDCB9300B3D2D5 /* NewRecordVC.swift */,
+				5E35EED120BDCAFB00B3D2D5 /* RecordVC.swift */,
+				5E35EECC20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib */,
+				5E35EEBB20BAE72E00B3D2D5 /* Main.storyboard */,
+				5E35EEBE20BAE72E00B3D2D5 /* Assets.xcassets */,
+				5E35EEC020BAE72E00B3D2D5 /* LaunchScreen.storyboard */,
+				5E35EEC320BAE72E00B3D2D5 /* Info.plist */,
+			);
+			path = "03-diary-ui";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E35EEB320BAE72E00B3D2D5 /* 03-diary-ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E35EEC620BAE72E00B3D2D5 /* Build configuration list for PBXNativeTarget "03-diary-ui" */;
+			buildPhases = (
+				5E35EEB020BAE72E00B3D2D5 /* Sources */,
+				5E35EEB120BAE72E00B3D2D5 /* Frameworks */,
+				5E35EEB220BAE72E00B3D2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-diary-ui";
+			productName = "03-diary-ui";
+			productReference = 5E35EEB420BAE72E00B3D2D5 /* 03-diary-ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E35EEAC20BAE72E00B3D2D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mariana Ruzhytska";
+				TargetAttributes = {
+					5E35EEB320BAE72E00B3D2D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E35EEAF20BAE72E00B3D2D5 /* Build configuration list for PBXProject "03-diary-ui" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E35EEAB20BAE72E00B3D2D5;
+			productRefGroup = 5E35EEB520BAE72E00B3D2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E35EEB320BAE72E00B3D2D5 /* 03-diary-ui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E35EEB220BAE72E00B3D2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E35EECE20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib in Resources */,
+				5E35EEC220BAE72E00B3D2D5 /* LaunchScreen.storyboard in Resources */,
+				5E35EEBF20BAE72E00B3D2D5 /* Assets.xcassets in Resources */,
+				5E35EEBD20BAE72E00B3D2D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E35EEB020BAE72E00B3D2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E35EED220BDCAFB00B3D2D5 /* RecordVC.swift in Sources */,
+				5E35EEBA20BAE72E00B3D2D5 /* RecordListViewController.swift in Sources */,
+				5E35EED420BDCB9300B3D2D5 /* NewRecordVC.swift in Sources */,
+				5E35EECD20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift in Sources */,
+				5E35EED020BCA15800B3D2D5 /* Record.swift in Sources */,
+				5E35EEB820BAE72E00B3D2D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E35EEBB20BAE72E00B3D2D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E35EEBC20BAE72E00B3D2D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E35EEC020BAE72E00B3D2D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E35EEC120BAE72E00B3D2D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E35EEC420BAE72E00B3D2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E35EEC520BAE72E00B3D2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E35EEC720BAE72E00B3D2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TLGLEM5LQ;
+				INFOPLIST_FILE = "03-diary-ui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marfetko.-3-diary-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E35EEC820BAE72E00B3D2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TLGLEM5LQ;
+				INFOPLIST_FILE = "03-diary-ui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marfetko.-3-diary-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E35EEAF20BAE72E00B3D2D5 /* Build configuration list for PBXProject "03-diary-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E35EEC420BAE72E00B3D2D5 /* Debug */,
+				5E35EEC520BAE72E00B3D2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E35EEC620BAE72E00B3D2D5 /* Build configuration list for PBXNativeTarget "03-diary-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E35EEC720BAE72E00B3D2D5 /* Debug */,
+				5E35EEC820BAE72E00B3D2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E35EEAC20BAE72E00B3D2D5 /* Project object */;
+}
