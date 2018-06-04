@@ -16,7 +16,6 @@
 		5E35EECE20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E35EECC20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib */; };
 		5E35EED020BCA15800B3D2D5 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EECF20BCA15800B3D2D5 /* Record.swift */; };
 		5E35EED220BDCAFB00B3D2D5 /* RecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EED120BDCAFB00B3D2D5 /* RecordVC.swift */; };
-		5E35EED420BDCB9300B3D2D5 /* NewRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35EED320BDCB9300B3D2D5 /* NewRecordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		5E35EECC20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaryRecordTableViewCell.xib; sourceTree = "<group>"; };
 		5E35EECF20BCA15800B3D2D5 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		5E35EED120BDCAFB00B3D2D5 /* RecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVC.swift; sourceTree = "<group>"; };
-		5E35EED320BDCB9300B3D2D5 /* NewRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				5E35EECF20BCA15800B3D2D5 /* Record.swift */,
 				5E35EEB920BAE72E00B3D2D5 /* RecordListViewController.swift */,
 				5E35EECB20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift */,
-				5E35EED320BDCB9300B3D2D5 /* NewRecordVC.swift */,
 				5E35EED120BDCAFB00B3D2D5 /* RecordVC.swift */,
 				5E35EECC20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.xib */,
 				5E35EEBB20BAE72E00B3D2D5 /* Main.storyboard */,
@@ -154,7 +151,6 @@
 			files = (
 				5E35EED220BDCAFB00B3D2D5 /* RecordVC.swift in Sources */,
 				5E35EEBA20BAE72E00B3D2D5 /* RecordListViewController.swift in Sources */,
-				5E35EED420BDCB9300B3D2D5 /* NewRecordVC.swift in Sources */,
 				5E35EECD20BC9E2C00B3D2D5 /* DiaryRecordTableViewCell.swift in Sources */,
 				5E35EED020BCA15800B3D2D5 /* Record.swift in Sources */,
 				5E35EEB820BAE72E00B3D2D5 /* AppDelegate.swift in Sources */,

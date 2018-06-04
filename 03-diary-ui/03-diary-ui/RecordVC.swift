@@ -9,10 +9,34 @@
 import UIKit
 
 class RecordVC: UIViewController {
+    
+    
+    enum Mode {
+        case create
+        case edit
+    }
+    
+   // let mode: Mode = .create
+    var record = [Record]()
+   // var newRecord =
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let titleTF = UITextField(frame: CGRect(x: 10, y: 10, width: 100, height: 40))
+        titleTF.delegate = self
+        titleTF.borderStyle = UITextBorderStyle.roundedRect
+        titleTF.placeholder = "Enter text here"
+        self.view.addSubview(titleTF)
+        
+      //  titleTF.text =
+        
+
+        let diaryTV = UITextView(frame: CGRect(x: 10, y: 60, width: 100, height: 40))
+        diaryTV.isEditable = true
+        self.view.addSubview(diaryTV)
+
+        
         // Do any additional setup after loading the view.
     }
 
@@ -33,3 +57,16 @@ class RecordVC: UIViewController {
     */
 
 }
+
+extension RecordVC: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        // became first responder
+        print("TextField did begin editing method called")
+    }
+    func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason) {
+        // if implemented, called in place of textFieldDidEndEditing:
+        print("TextField did end editing with reason method called")
+    }
+
+}
+
